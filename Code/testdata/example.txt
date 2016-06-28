@@ -1,0 +1,22 @@
+STOP;1;First stop of line 10
+STOP;2;Common second stop of lines 10 and 20
+STOP;3;Third stop of line 10
+STOP;4;First stop of line 20
+STOP;5;Third stop of line 20
+
+ROUTE;10;Line 10: (1->2->3)
+ROUTE;20;Line 20: (4->2->5)
+
+ROUTEADDSTOP;10;1;0
+ROUTEADDSTOP;10;2;5
+ROUTEADDSTOP;10;3;10
+
+ROUTEADDSTOP;20;4;0
+ROUTEADDSTOP;20;2;10
+ROUTEADDSTOP;20;5;20
+
+BUS;110;10;1;00
+BUS;120;10;2;00
+
+BUS;210;20;1;10
+BUS;220;20;2;20

@@ -1,0 +1,120 @@
+> R zz-final_bus_liteN.txt
+> C
+1037 stops, 55 routes, 1792 buses.
+> P 6021
+Erkontie
+> B 6021
+13: Ylöjärvi Matkatie - Hermia
+> P 1501
+Ammattikoulu
+> B 1501
+11: Korvenkatu 44 - Sarankulma
+17: Kalkku - Juvelankatu
+29: Pitkäniemi - Aitolahdentie 36
+13: Ylöjärvi Matkatie - Hermia
+13: Lamminpään hautausmaa - Hermia
+26: Kaarila - Höytämö
+> T 09:00 6021 1501
+13: Ylöjärvi Matkatie - Hermia
+  09:16 6021, Erkontie
+  09:17 6019, Tornitie
+  09:18 6017, Harjutie
+  09:19 6015, Pohjanpolku
+  09:20 6013, Särkitie
+  09:21 6011, Tanhuatie
+  09:22 6009, Käyräkuja
+  09:23 6007, Kallenkuja
+  09:24 6005, Kaivokuja
+  09:25 6003, Hatolantie
+  09:26 6001, Palstatie
+  09:27 1672, Lamminpään hautausmaa
+  09:28 1662, Rauhantie
+  09:29 1664, Lamminpään koulu
+  09:30 1619, Suoniemenkatu
+  09:31 1617, Pyydyspohjankatu
+  09:32 1615, Tarhamäenkatu
+  09:33 1613, Sitarinkatu
+  09:34 1611, Länsitori
+  09:35 1531, Kokkolankatu
+  09:36 1529, Risuharjunkatu
+  09:37 1527, Nokiantie
+  09:38 1525, Puistokaarila
+  09:39 1523, Winterin alue
+  09:40 1521, Pispalan vt 141
+  09:41 1519, Epilä
+  09:42 1515, Haapalinna
+  09:44 1513, Hyhkynkatu
+  09:45 1511, Pispalantori
+  09:46 1509, Ahjola
+  09:47 1507, Pulteri
+  09:48 1505, Rajaportti
+  09:49 1503, Tipotie
+->09:50 1501, Ammattikoulu
+> P 3125
+Kuusikonkatu
+> B 3125
+12: Hallila - Keskustori P
+> P 3103
+Koivistonkeskus
+> B 3103
+21: Turtola - Länsitori
+> T 21:00 3125 3103
+12: Hallila - Keskustori P
+  21:28 3125, Kuusikonkatu
+  21:29 3127, Lehtimetsänkatu
+  21:30 3129, Pehkusuonkatu
+  21:31 3131, Kiulukatu
+->21:32 3121, Loukkaankatu
+21: Turtola - Länsitori
+  21:56 3121, Loukkaankatu
+  21:57 3055, Emännänkatu
+  21:58 3051, Veisu
+  21:59 3049, Isännänkatu
+  22:00 3047, Haukisenkatu
+  22:01 3045, Nirvankatu
+->22:02 3103, Koivistonkeskus
+> P 4078
+Kaukajärvi
+> B 4078
+10: Kaukajärvi - Keskustori N
+> P 561
+Tampere-talo
+> B 561
+9: Annala - Keskustori O
+13: Hermia - Ylöjärvi Matkatie
+15: Järvensivu - Pispalanharju 
+> T 13:00 4078 561
+10: Kaukajärvi - Keskustori N
+  13:00 4078, Kaukajärvi
+  13:01 4077, Haiharankatu
+  13:02 4073, Keskisenkatu 13
+  13:03 4079, Keskisenkatu
+  13:05 3584, Santaharjuntie
+  13:06 3555, Vasaratie 31
+  13:07 3553, Vasaratie 25
+  13:08 3551, Vasaratie 13
+->13:09 3549, Nuijatie
+13: Hermia - Ylöjärvi Matkatie
+  13:23 3549, Nuijatie
+  13:26 4017, Kivikirkko
+  13:27 4015, Aakkula
+  13:28 4013, Messukylänkatu
+  13:29 4011, Vuohensilta
+  13:31 4007, Tilhentie
+  13:32 4005, Kalevantie
+  13:33 4003, Takojankatu
+  13:34 4001, Tarkonpuisto
+  13:35 565, Yliopisto
+->13:37 561, Tampere-talo
+> P 500
+Koskipuisto C
+> B 500
+20: Pyynikintori - Hikivuori
+9: Keskustori O - Annala
+13: Ylöjärvi Matkatie - Hermia
+13: Lamminpään hautausmaa - Hermia
+13: Keskustori K - Hermia
+3: Lentävänniemi - Etelä-Hervanta
+3: Keskustori L - Etelä-Hervanta
+> Q
+This program uses bus data from Tampereen kaupunkiliikenne (TKL)

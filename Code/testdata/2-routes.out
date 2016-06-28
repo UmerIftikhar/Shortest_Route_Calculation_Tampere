@@ -1,0 +1,35 @@
+> R 2-routes.txt
+> C
+9 stops, 2 routes, 6 buses.
+> B 2
+Line 1
+> B 7
+Line 2
+> B 3
+Line 1
+Line 2
+> T 13:10 2 4
+Line 1
+  14:05 2, Second stop of line 1
+  14:15 3, Third stop of both lines 1 and 2
+->14:30 4, Fourth stop of line 1
+> T 13:10 1 9
+Line 1
+  14:00 1, First stop of line 1
+  14:05 2, Second stop of line 1
+->14:15 3, Third stop of both lines 1 and 2
+Line 2
+  14:34 3, Third stop of both lines 1 and 2
+  14:36 8, Fourth stop of line 2
+->14:38 9, Fifth stop of line 2
+> T 14:00 7 4
+Line 2
+  14:02 7, Second stop of line 2
+->14:04 3, Third stop of both lines 1 and 2
+Line 1
+  14:15 3, Third stop of both lines 1 and 2
+->14:30 4, Fourth stop of line 1
+> T 14:20 7 4
+Error: No route!
+> Q
+This program uses bus data from Tampereen kaupunkiliikenne (TKL)

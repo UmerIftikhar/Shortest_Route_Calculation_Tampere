@@ -1,0 +1,47 @@
+> C
+0 stops, 0 routes, 0 buses.
+> R 1-route.txt
+> C
+5 stops, 1 routes, 2 buses.
+> P 1
+First stop
+> B 1
+Line 1
+> P 3
+Third stop
+> B 3
+Line 1
+> P 5
+Fifth stop
+> B 5
+> T 10:00 1 5
+Line 1
+  13:00 1, First stop
+  13:05 2, Second stop
+  13:15 3, Third stop
+  13:30 4, Fourth stop
+->14:00 5, Fifth stop
+> T 13:30 2 4
+Line 1
+  14:05 2, Second stop
+  14:15 3, Third stop
+->14:30 4, Fourth stop
+> P 10
+Error: No such stop!
+> B 20
+Error: No such stop!
+> T 16:00 1 5
+Error: No route!
+> T 10:00 5 1
+Error: No route!
+> E
+> C
+0 stops, 0 routes, 0 buses.
+> P 1
+Error: No such stop!
+> B 3
+Error: No such stop!
+> T 10:00 1 5
+Error: No such stop!
+> Q
+This program uses bus data from Tampereen kaupunkiliikenne (TKL)
